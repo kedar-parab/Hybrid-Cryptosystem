@@ -1,0 +1,9 @@
+﻿Build started 4/19/2014 12:31:41 PM.
+     1>Project "C:\CryptoPP\AES_CBC\KeyGen\KeyGen\KeyGen.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         KeyGen.vcxproj -> C:\CryptoPP\AES_CBC\KeyGen\Debug\KeyGen.exe
+     1>Done Building Project "C:\CryptoPP\AES_CBC\KeyGen\KeyGen\KeyGen.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.13

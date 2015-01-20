@@ -1,0 +1,38 @@
+﻿Build started 5/1/2014 5:01:19 PM.
+     1>Project "C:\Project\CryptoPP\AES CBC IV=0\KeyGen\KeyGen\KeyGen.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\KeyGen.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt KeyGen.cpp
+         KeyGen.cpp
+     1>c:\project\cryptopp\aes cbc iv=0\keygen\keygen\keygen.cpp(213): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\project\cryptopp\aes cbc iv=0\keygen\keygen\keygen.cpp(213): error C2143: syntax error : missing ';' before '&'
+     1>c:\project\cryptopp\aes cbc iv=0\keygen\keygen\keygen.cpp(213): error C2065: 'n' : undeclared identifier
+     1>c:\project\cryptopp\aes cbc iv=0\keygen\keygen\keygen.cpp(214): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\project\cryptopp\aes cbc iv=0\keygen\keygen\keygen.cpp(214): error C2143: syntax error : missing ';' before '&'
+     1>c:\project\cryptopp\aes cbc iv=0\keygen\keygen\keygen.cpp(214): error C2086: 'const int Integer' : redefinition
+                 c:\project\cryptopp\aes cbc iv=0\keygen\keygen\keygen.cpp(213) : see declaration of 'Integer'
+     1>c:\project\cryptopp\aes cbc iv=0\keygen\keygen\keygen.cpp(214): error C2065: 'p' : undeclared identifier
+     1>c:\project\cryptopp\aes cbc iv=0\keygen\keygen\keygen.cpp(215): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\project\cryptopp\aes cbc iv=0\keygen\keygen\keygen.cpp(215): error C2143: syntax error : missing ';' before '&'
+     1>c:\project\cryptopp\aes cbc iv=0\keygen\keygen\keygen.cpp(215): error C2086: 'const int Integer' : redefinition
+                 c:\project\cryptopp\aes cbc iv=0\keygen\keygen\keygen.cpp(213) : see declaration of 'Integer'
+     1>c:\project\cryptopp\aes cbc iv=0\keygen\keygen\keygen.cpp(215): error C2065: 'q' : undeclared identifier
+     1>c:\project\cryptopp\aes cbc iv=0\keygen\keygen\keygen.cpp(216): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\project\cryptopp\aes cbc iv=0\keygen\keygen\keygen.cpp(216): error C2143: syntax error : missing ';' before '&'
+     1>c:\project\cryptopp\aes cbc iv=0\keygen\keygen\keygen.cpp(216): error C2086: 'const int Integer' : redefinition
+                 c:\project\cryptopp\aes cbc iv=0\keygen\keygen\keygen.cpp(213) : see declaration of 'Integer'
+     1>c:\project\cryptopp\aes cbc iv=0\keygen\keygen\keygen.cpp(216): error C2065: 'd' : undeclared identifier
+     1>c:\project\cryptopp\aes cbc iv=0\keygen\keygen\keygen.cpp(217): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\project\cryptopp\aes cbc iv=0\keygen\keygen\keygen.cpp(217): error C2143: syntax error : missing ';' before '&'
+     1>c:\project\cryptopp\aes cbc iv=0\keygen\keygen\keygen.cpp(217): error C2086: 'const int Integer' : redefinition
+                 c:\project\cryptopp\aes cbc iv=0\keygen\keygen\keygen.cpp(213) : see declaration of 'Integer'
+     1>c:\project\cryptopp\aes cbc iv=0\keygen\keygen\keygen.cpp(217): error C2065: 'e' : undeclared identifier
+     1>c:\project\cryptopp\aes cbc iv=0\keygen\keygen\keygen.cpp(222): error C2065: 'n' : undeclared identifier
+     1>c:\project\cryptopp\aes cbc iv=0\keygen\keygen\keygen.cpp(223): error C2065: 'p' : undeclared identifier
+     1>c:\project\cryptopp\aes cbc iv=0\keygen\keygen\keygen.cpp(224): error C2065: 'q' : undeclared identifier
+     1>c:\project\cryptopp\aes cbc iv=0\keygen\keygen\keygen.cpp(225): error C2065: 'd' : undeclared identifier
+     1>c:\project\cryptopp\aes cbc iv=0\keygen\keygen\keygen.cpp(226): error C2065: 'e' : undeclared identifier
+     1>Done Building Project "C:\Project\CryptoPP\AES CBC IV=0\KeyGen\KeyGen\KeyGen.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.35

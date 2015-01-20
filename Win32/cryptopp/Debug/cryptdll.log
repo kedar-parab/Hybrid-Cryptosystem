@@ -1,0 +1,141 @@
+﻿Build started 3/30/2014 1:53:45 PM.
+     1>Project "C:\cryptopp562\cryptdll.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oi /Oy- /D _DEBUG /D WIN32 /D _WINDOWS /D _MBCS /D _USRDLL /D CRYPTOPP_EXPORTS /D CRYPTOPP_ENABLE_COMPLIANCE_WITH_FIPS_140_2=1 /D USE_PRECOMPILED_HEADERS /Gm- /EHsc /RTC1 /MTd /GS /arch:SSE /fp:precise /Zc:wchar_t /Zc:forScope /Yc"pch.h" /Fp"Win32\cryptopp\Debug\cryptopp.pch" /Fo"Win32\cryptopp\Debug\\" /Fd"Win32\DLL_Output\Debug\vc80.pdb" /Gd /TP /analyze- /errorReport:prompt /Zm200  pch.cpp
+         pch.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oi /Oy- /D _DEBUG /D WIN32 /D _WINDOWS /D _MBCS /D _USRDLL /D CRYPTOPP_EXPORTS /D CRYPTOPP_ENABLE_COMPLIANCE_WITH_FIPS_140_2=1 /D USE_PRECOMPILED_HEADERS /Gm- /EHsc /RTC1 /MTd /GS /arch:SSE /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Win32\cryptopp\Debug\cryptopp.pch" /Fo"Win32\cryptopp\Debug\\" /Fd"Win32\DLL_Output\Debug\vc80.pdb" /Gd /TP /analyze- /errorReport:prompt /Zm200  algebra.cpp algparam.cpp asn.cpp basecode.cpp cbcmac.cpp channels.cpp cryptlib.cpp des.cpp dessp.cpp dh.cpp dsa.cpp ec2n.cpp eccrypto.cpp ecp.cpp eprecomp.cpp files.cpp filters.cpp fips140.cpp fipstest.cpp gf2n.cpp gfpcrypt.cpp hex.cpp hmac.cpp integer.cpp misc.cpp modes.cpp mqueue.cpp nbtheory.cpp oaep.cpp osrng.cpp pkcspad.cpp pubkey.cpp queue.cpp randpool.cpp rdtables.cpp rijndael.cpp rng.cpp rsa.cpp sha.cpp simple.cpp skipjack.cpp strciphr.cpp trdlocal.cpp
+         algebra.cpp
+         algparam.cpp
+         asn.cpp
+         basecode.cpp
+         cbcmac.cpp
+         channels.cpp
+         cryptlib.cpp
+         des.cpp
+         dessp.cpp
+         dh.cpp
+         dsa.cpp
+         ec2n.cpp
+         eccrypto.cpp
+         ecp.cpp
+         eprecomp.cpp
+         files.cpp
+         filters.cpp
+         fips140.cpp
+         fipstest.cpp
+         gf2n.cpp
+         Generating Code...
+         Compiling...
+         gfpcrypt.cpp
+         hex.cpp
+         hmac.cpp
+         integer.cpp
+         misc.cpp
+         modes.cpp
+         mqueue.cpp
+         nbtheory.cpp
+         oaep.cpp
+         osrng.cpp
+         pkcspad.cpp
+         pubkey.cpp
+         queue.cpp
+         randpool.cpp
+         rdtables.cpp
+         rijndael.cpp
+         rng.cpp
+         rsa.cpp
+         sha.cpp
+         simple.cpp
+         Generating Code...
+         Compiling...
+         skipjack.cpp
+         strciphr.cpp
+         trdlocal.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oi /Oy- /D _DEBUG /D WIN32 /D _WINDOWS /D _USRDLL /D CRYPTOPP_EXPORTS /D CRYPTOPP_ENABLE_COMPLIANCE_WITH_FIPS_140_2=1 /D USE_PRECOMPILED_HEADERS /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /arch:SSE /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Win32\cryptopp\Debug\cryptopp.pch" /Fo"Win32\cryptopp\Debug\\" /Fd"Win32\DLL_Output\Debug\vc80.pdb" /Gd /TP /analyze- /errorReport:prompt /Zm200  authenc.cpp ccm.cpp cmac.cpp cpu.cpp emsa2.cpp gcm.cpp hrtimer.cpp pssr.cpp rw.cpp
+         authenc.cpp
+         ccm.cpp
+         cmac.cpp
+         cpu.cpp
+         emsa2.cpp
+         gcm.cpp
+         hrtimer.cpp
+         pssr.cpp
+         rw.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oi /Oy- /D _DEBUG /D WIN32 /D _WINDOWS /D _MBCS /D _USRDLL /D CRYPTOPP_EXPORTS /D CRYPTOPP_ENABLE_COMPLIANCE_WITH_FIPS_140_2=1 /D USE_PRECOMPILED_HEADERS /Gm- /EHsc /RTC1 /MTd /GS /arch:SSE /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\cryptopp\Debug\\" /Fd"Win32\DLL_Output\Debug\vc80.pdb" /Gd /TP /analyze- /errorReport:prompt /Zm200  dll.cpp iterhash.cpp
+         dll.cpp
+         iterhash.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0710 /l"0x0409" /nologo /fo"Win32\cryptopp\Debug\cryptopp.res" cryptopp.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Win32\DLL_Output\Debug\cryptopp.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\cryptopp562\Win32\DLL_Output\Debug\cryptopp.pdb" /OPT:REF /TLBID:1 /BASE:"0x42900000" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\cryptopp562\Win32\DLL_Output\Debug\cryptopp.lib" /MACHINE:X86 /SAFESEH /DLL Win32\cryptopp\Debug\cryptopp.res
+         Win32\cryptopp\Debug\algebra.obj
+         Win32\cryptopp\Debug\algparam.obj
+         Win32\cryptopp\Debug\asn.obj
+         Win32\cryptopp\Debug\authenc.obj
+         Win32\cryptopp\Debug\basecode.obj
+         Win32\cryptopp\Debug\cbcmac.obj
+         Win32\cryptopp\Debug\ccm.obj
+         Win32\cryptopp\Debug\channels.obj
+         Win32\cryptopp\Debug\cmac.obj
+         Win32\cryptopp\Debug\cpu.obj
+         Win32\cryptopp\Debug\cryptlib.obj
+         Win32\cryptopp\Debug\des.obj
+         Win32\cryptopp\Debug\dessp.obj
+         Win32\cryptopp\Debug\dh.obj
+         Win32\cryptopp\Debug\dll.obj
+         Win32\cryptopp\Debug\dsa.obj
+         Win32\cryptopp\Debug\ec2n.obj
+         Win32\cryptopp\Debug\eccrypto.obj
+         Win32\cryptopp\Debug\ecp.obj
+         Win32\cryptopp\Debug\emsa2.obj
+         Win32\cryptopp\Debug\eprecomp.obj
+         Win32\cryptopp\Debug\files.obj
+         Win32\cryptopp\Debug\filters.obj
+         Win32\cryptopp\Debug\fips140.obj
+         Win32\cryptopp\Debug\fipstest.obj
+         Win32\cryptopp\Debug\gcm.obj
+         Win32\cryptopp\Debug\gf2n.obj
+         Win32\cryptopp\Debug\gfpcrypt.obj
+         Win32\cryptopp\Debug\hex.obj
+         Win32\cryptopp\Debug\hmac.obj
+         Win32\cryptopp\Debug\hrtimer.obj
+         Win32\cryptopp\Debug\integer.obj
+         Win32\cryptopp\Debug\iterhash.obj
+         Win32\cryptopp\Debug\misc.obj
+         Win32\cryptopp\Debug\modes.obj
+         Win32\cryptopp\Debug\mqueue.obj
+         Win32\cryptopp\Debug\nbtheory.obj
+         Win32\cryptopp\Debug\oaep.obj
+         Win32\cryptopp\Debug\osrng.obj
+         Win32\cryptopp\Debug\pch.obj
+         Win32\cryptopp\Debug\pkcspad.obj
+         Win32\cryptopp\Debug\pssr.obj
+         Win32\cryptopp\Debug\pubkey.obj
+         Win32\cryptopp\Debug\queue.obj
+         Win32\cryptopp\Debug\randpool.obj
+         Win32\cryptopp\Debug\rdtables.obj
+         Win32\cryptopp\Debug\rijndael.obj
+         Win32\cryptopp\Debug\rng.obj
+         Win32\cryptopp\Debug\rsa.obj
+         Win32\cryptopp\Debug\rw.obj
+         Win32\cryptopp\Debug\sha.obj
+         Win32\cryptopp\Debug\simple.obj
+         Win32\cryptopp\Debug\skipjack.obj
+         Win32\cryptopp\Debug\strciphr.obj
+         Win32\cryptopp\Debug\trdlocal.obj
+            Creating library C:\cryptopp562\Win32\DLL_Output\Debug\cryptopp.lib and object C:\cryptopp562\Win32\DLL_Output\Debug\cryptopp.exp
+         cryptdll.vcxproj -> C:\cryptopp562\Win32\DLL_Output\Debug\cryptopp.dll
+       CustomBuildStep:
+         Win32\output\debug\cryptest mac_dll "C:\cryptopp562\Win32\DLL_Output\Debug\cryptopp.dll"
+         echo mac done > "Win32\DLL_Output\Debug\"\cryptopp.mac.done
+         
+         :VCEnd
+         Placing MAC in file C:\cryptopp562\Win32\DLL_Output\Debug\cryptopp.dll, location 1624664.
+     1>Done Building Project "C:\cryptopp562\cryptdll.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:17.05
